@@ -1,4 +1,5 @@
 from CvPythonExtensions import *
+from CvPlatyBuilderSettings import *
 import CvUtil
 import CvScreenEnums
 import WBPlotScreen
@@ -23,20 +24,6 @@ import CvEventManager
 import Popup
 
 gc = CyGlobalContext()
-iChange = 1
-bPython = True
-bHideInactive = True
-Activities = [
-    "AWAKE",
-    "HOLD",
-    "SLEEP",
-    "HEAL",
-    "SENTRY",
-    "INTERCEPT",
-    "MISSION",
-    "PATROL",
-    "PLUNDER",
-]
 
 
 class CvWorldBuilderScreen:
